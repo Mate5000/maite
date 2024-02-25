@@ -1,0 +1,122 @@
+.email {
+    text-align: center;
+  }
+  .kozepre {
+    text-align: center;
+  }
+  .udv {
+    text-align: center;
+  }
+  .mh1 {
+    font-size: 28px;
+  }
+  .mh2 {
+    font-size: 20px;
+  }
+  .mh3 {
+    font-size: 18px;
+  }
+  .funkciok{
+    background-color: rgb(231, 235, 245);
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+  .eszkozok {  
+    margin-left: 0px;
+    padding-top: 5px;
+    font-size: 30px;
+    margin: 15px 0px 15px 0px;
+  }
+  .funkcio {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr); 
+    transition: background-color 0.5s ease-out 100ms;
+    cursor: pointer;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+  }
+  .osszes_funkcio {
+    margin-left: 0px;
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-auto-columns: 100px;
+    grid-column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 35px;
+  }
+  .funkcio:visited {
+    color: #58555e;
+  }
+  .funkcio2:link {
+    color: #58555e;
+  }
+  .funkcio2:visited {
+    color: #58555e;
+  }
+  .funkcio2:active {
+    color: #58555e;
+  }
+  /* @media screen and (max-width: 564px) {
+    .essze_parameterek_subtext {
+      margin-right: 0px;
+    }
+  } */
+  
+  @media screen and (max-width: 1251px) {
+    .osszes_funkcio {
+      margin-right: 0px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 869px) {
+    .osszes_funkcio {
+      margin-right: 0px;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      margin: 0 auto;
+    }
+  }
+  
+  .ecim {
+    margin-left: 15px;
+    margin-top: 24px;
+    font-size: 22px;
+  }
+  .funkcio_ikon {
+    font-size: 35px;
+    margin-top: 23px;
+    margin-right: 12px;
+    right: 10px;
+    text-align: center;
+  }
+  .box1 {
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: center;
+    
+  }
+  .box2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .box3 {
+    grid-area: 2 / 1 / 3 / 3;
+    text-align: center;
+    margin-top: 0px;
+    margin: 0px 5px 5px 5px;
+  }
+  .funkcio:hover {
+    background-color: #d2daf0;
+    transition: 0.5s;
+  }
+  

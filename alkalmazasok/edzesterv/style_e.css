@@ -1,0 +1,31 @@
+.parameter_cim {
+    display: block;
+    padding: .40rem .75rem;
+    background-color: transparent;
+    border-radius: .25rem;
+    width: 87%;
+    margin-left: 12%;
+    font-size: 20px;
+}
+.essze_parameter_flex {
+    margin-top: 10px;
+    font-size: 17px;
+}
+.essze_bevitel {
+    margin-top: 2px;
+    max-width: 500px;
+}
+
+.rajta{
+    text-align: right;
+}
+.auto1 {
+    height: fit-content;
+}
+
+@media screen and (max-width: 756px ) {
+    .parameter_cim {
+      width: 92%;
+      margin-left: 9%;
+    }
+}
